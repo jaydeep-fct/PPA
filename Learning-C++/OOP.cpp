@@ -10,9 +10,13 @@ class Demo
         int No1;
         int No2;
 
-        void func()
+        void obj1Func()
         {
-            cout<<"Inside func\n";
+            cout<<"Inside obj1Func\n";
+        }
+        void obj2Func()
+        {
+            cout<<"Inside obj2Func\n";
         }
 };
 
@@ -25,7 +29,7 @@ int main()
 
     cout<<"Size of object 1 is : "<<sizeof(obj1)<<"\n";
 
-    obj1.func();
+    obj1.obj1Func();
 
     Demo obj2;
 
@@ -34,7 +38,7 @@ int main()
     obj2.No1;
     obj2.No2;
 
-    obj2.func();
+    obj2.obj2Func();
 
     return 0;
 }
