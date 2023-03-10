@@ -23,13 +23,13 @@ int main()
     obj1.No1;
     obj1.No2;
 
-    cout<<"Size of object is : "<<sizeof(obj1)<<"\n";
+    cout<<"Size of object 1 is : "<<sizeof(obj1)<<"\n";
 
     obj1.func();
 
     Demo obj2;
 
-    cout<<"Size of object is : "<<sizeof(obj2)<<"\n";
+    cout<<"Size of object 2 is : "<<sizeof(obj2)<<"\n";
 
     obj2.No1;
     obj2.No2;
