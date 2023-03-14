@@ -25,10 +25,18 @@ class Demo
 };
 int main()
 {
-    Demo obj1;
-    Demo obj2(9,18);
+    cout<<"Inside main"<<"\n";
 
-    
+    Demo obj1; // Static memory allocation of object
+    Demo obj2(9,18); // Static memory allocation of object
+
+    Demo *p = new Demo(); // Dynamic memory allocation of object
+    Demo *q = new Demo(9, 18); // Dynamic memory allocation of object
+
+    delete p;    
+    delete q;    
+
+    cout<<"End of main"<<"\n";
 
     return 0;
 
