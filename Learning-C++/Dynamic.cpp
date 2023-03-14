@@ -12,5 +12,13 @@ int main()
 
     int *q = NULL;
     q = (int *)calloc(5, sizeof(int)); //dynamic memory allocation using calloc
+
+    int *X = NULL;
+    X = new int[5];
+
+    free(p);
+    free(q);
+    delete[] X;
+    
     return 0;
 }
